@@ -6,7 +6,7 @@
 package org.sic.vista;
 
 import javax.swing.UIManager;
-import org.jvnet.substance.skin.SubstanceRavenLookAndFeel;
+import org.jvnet.substance.skin.SubstanceMistSilverLookAndFeel;
 
 /**
  *
@@ -210,7 +210,10 @@ public class Login extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnInicioMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnInicioMouseClicked
-        System.exit(0);
+        Principal p = new Principal();
+        p.setVisible(true);
+        p.pack();
+        this.setVisible(false);
     }//GEN-LAST:event_btnInicioMouseClicked
 
     /**
@@ -218,7 +221,7 @@ public class Login extends javax.swing.JFrame {
      */
     public static void main(String args[]) {
         try {
-            UIManager.setLookAndFeel(new SubstanceRavenLookAndFeel());
+            UIManager.setLookAndFeel(new SubstanceMistSilverLookAndFeel());
         } catch (Exception e) {
             e.getMessage();
         }
