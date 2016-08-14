@@ -6,7 +6,7 @@
 package org.sic.vista;
 
 import javax.swing.UIManager;
-import org.jvnet.substance.skin.SubstanceBusinessBlueSteelLookAndFeel;
+import org.jvnet.substance.skin.SubstanceMistAquaLookAndFeel;
 
 /**
  *
@@ -19,6 +19,7 @@ public class Login extends javax.swing.JFrame {
      */
     public Login() {
         initComponents();
+        setExtendedState(MAXIMIZED_BOTH);
     }
 
     /**
@@ -221,7 +222,7 @@ public class Login extends javax.swing.JFrame {
      */
     public static void main(String args[]) {
         try {
-            UIManager.setLookAndFeel(new SubstanceBusinessBlueSteelLookAndFeel());
+            UIManager.setLookAndFeel(new SubstanceMistAquaLookAndFeel());
         } catch (Exception e) {
             e.getMessage();
         }
