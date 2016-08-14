@@ -81,7 +81,7 @@ public class Login extends javax.swing.JFrame {
 
         jPanel1.add(jPanel2, java.awt.BorderLayout.NORTH);
 
-        jPanel4.setBackground(new java.awt.Color(156, 1, 19));
+        jPanel4.setBackground(new java.awt.Color(0, 153, 153));
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -96,7 +96,7 @@ public class Login extends javax.swing.JFrame {
 
         jPanel1.add(jPanel4, java.awt.BorderLayout.WEST);
 
-        jPanel5.setBackground(new java.awt.Color(156, 1, 19));
+        jPanel5.setBackground(new java.awt.Color(0, 153, 153));
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -111,7 +111,7 @@ public class Login extends javax.swing.JFrame {
 
         jPanel1.add(jPanel5, java.awt.BorderLayout.EAST);
 
-        jPanel6.setBackground(new java.awt.Color(156, 1, 19));
+        jPanel6.setBackground(new java.awt.Color(0, 153, 153));
 
         jPanel3.setBackground(new java.awt.Color(1, 1, 1));
         jPanel3.setLayout(new java.awt.BorderLayout());
@@ -139,28 +139,28 @@ public class Login extends javax.swing.JFrame {
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/Apps-preferences-desktop-cryptography-icon.png"))); // NOI18N
 
-        jPanel8.setBackground(new java.awt.Color(156, 1, 19));
+        jPanel8.setBackground(new java.awt.Color(0, 153, 153));
         jPanel8.setLayout(new java.awt.FlowLayout(java.awt.FlowLayout.CENTER, 2, 2));
 
         jLabel1.setFont(new java.awt.Font("SansSerif", 0, 12)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(254, 254, 254));
+        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setText("USUARIO");
         jLabel1.setPreferredSize(new java.awt.Dimension(65, 15));
         jPanel8.add(jLabel1);
 
         jTextField1.setFont(new java.awt.Font("SansSerif", 0, 12)); // NOI18N
-        jTextField1.setForeground(new java.awt.Color(254, 254, 254));
+        jTextField1.setForeground(new java.awt.Color(0, 0, 0));
         jTextField1.setPreferredSize(new java.awt.Dimension(100, 19));
         jPanel8.add(jTextField1);
 
         jLabel2.setFont(new java.awt.Font("SansSerif", 0, 12)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(247, 249, 253));
+        jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("CLAVE");
         jLabel2.setPreferredSize(new java.awt.Dimension(65, 15));
         jPanel8.add(jLabel2);
 
         jPasswordField1.setFont(new java.awt.Font("SansSerif", 0, 12)); // NOI18N
-        jPasswordField1.setForeground(new java.awt.Color(254, 254, 254));
+        jPasswordField1.setForeground(new java.awt.Color(0, 0, 0));
         jPasswordField1.setPreferredSize(new java.awt.Dimension(100, 19));
         jPanel8.add(jPasswordField1);
 
