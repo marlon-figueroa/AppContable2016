@@ -49,7 +49,6 @@ public class Login extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("INICIO DE SESION");
-        setResizable(false);
 
         jPanel1.setBackground(new java.awt.Color(156, 1, 19));
         jPanel1.setLayout(new java.awt.BorderLayout());
