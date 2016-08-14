@@ -6,7 +6,7 @@
 package org.sic.vista;
 
 import javax.swing.UIManager;
-import org.jvnet.substance.skin.SubstanceMistSilverLookAndFeel;
+import org.jvnet.substance.skin.SubstanceBusinessBlueSteelLookAndFeel;
 
 /**
  *
@@ -221,7 +221,7 @@ public class Login extends javax.swing.JFrame {
      */
     public static void main(String args[]) {
         try {
-            UIManager.setLookAndFeel(new SubstanceMistSilverLookAndFeel());
+            UIManager.setLookAndFeel(new SubstanceBusinessBlueSteelLookAndFeel());
         } catch (Exception e) {
             e.getMessage();
         }
