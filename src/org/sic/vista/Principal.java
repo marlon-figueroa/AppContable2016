@@ -55,7 +55,7 @@ public class Principal extends javax.swing.JFrame {
         setTitle("SISTEMA CONTABLE V1.0");
         setBackground(new java.awt.Color(51, 204, 255));
 
-        Escritorio.setBackground(new java.awt.Color(0, 153, 153));
+        Escritorio.setBackground(new java.awt.Color(0, 102, 102));
 
         javax.swing.GroupLayout EscritorioLayout = new javax.swing.GroupLayout(Escritorio);
         Escritorio.setLayout(EscritorioLayout);
