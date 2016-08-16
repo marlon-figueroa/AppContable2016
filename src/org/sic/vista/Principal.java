@@ -63,7 +63,7 @@ public class Principal extends javax.swing.JFrame {
         );
         EscritorioLayout.setVerticalGroup(
             EscritorioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 491, Short.MAX_VALUE)
+            .addGap(0, 248, Short.MAX_VALUE)
         );
 
         getContentPane().add(Escritorio, java.awt.BorderLayout.CENTER);
@@ -71,7 +71,6 @@ public class Principal extends javax.swing.JFrame {
         jToolBar1.setFloatable(false);
         jToolBar1.setRollover(true);
 
-        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/exit.png"))); // NOI18N
         jButton2.setText("Salir");
         jButton2.setFocusable(false);
         jButton2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -83,7 +82,6 @@ public class Principal extends javax.swing.JFrame {
         });
         jToolBar1.add(jButton2);
 
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/20343_15262_32.png"))); // NOI18N
         jButton1.setText("Usuarios");
         jButton1.setFocusable(false);
         jButton1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);

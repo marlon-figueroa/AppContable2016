@@ -94,7 +94,7 @@
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jScrollPane1" pref="360" max="32767" attributes="0"/>
+                  <Component id="jScrollPane1" pref="377" max="32767" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
           </Group>
@@ -118,7 +118,7 @@
                       <Component id="jButton2" min="-2" pref="141" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="jButton3" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="137" max="32767" attributes="0"/>
+                      <EmptySpace pref="173" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -142,9 +142,6 @@
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes/db_add.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Agregar"/>
               </Properties>
             </Component>
@@ -153,9 +150,6 @@
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes/db_comit.png"/>
-                </Property>
                 <Property name="text" type="java.lang.String" value="Actualizar"/>
               </Properties>
             </Component>
@@ -163,9 +157,6 @@
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
-                </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/imagenes/db_remove.png"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Eliminar"/>
               </Properties>

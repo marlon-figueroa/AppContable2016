@@ -71,15 +71,12 @@ public class UsuarioUI extends javax.swing.JInternalFrame {
         jPanel2.setBackground(new java.awt.Color(204, 204, 204));
 
         jButton1.setBackground(new java.awt.Color(255, 255, 255));
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/db_add.png"))); // NOI18N
         jButton1.setText("Agregar");
 
         jButton2.setBackground(new java.awt.Color(255, 255, 255));
-        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/db_comit.png"))); // NOI18N
         jButton2.setText("Actualizar");
 
         jButton3.setBackground(new java.awt.Color(255, 255, 255));
-        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/db_remove.png"))); // NOI18N
         jButton3.setText("Eliminar");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -93,7 +90,7 @@ public class UsuarioUI extends javax.swing.JInternalFrame {
                 .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 141, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jButton3)
-                .addContainerGap(137, Short.MAX_VALUE))
+                .addContainerGap(173, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -138,7 +135,7 @@ public class UsuarioUI extends javax.swing.JInternalFrame {
                 .addContainerGap()
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 360, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 377, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
