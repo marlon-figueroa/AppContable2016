@@ -25,10 +25,13 @@ public class Principal extends javax.swing.JFrame {
         ui.show();
     }
 
+<<<<<<< HEAD
     private void apagarApp() {
         System.exit(0);
     }
 
+=======
+>>>>>>> 0cdaeb01e26727fdbed0df66e88c9f797f37a8f5
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -41,9 +44,13 @@ public class Principal extends javax.swing.JFrame {
         Escritorio = new javax.swing.JDesktopPane();
         jToolBar1 = new javax.swing.JToolBar();
         jButton2 = new javax.swing.JButton();
+<<<<<<< HEAD
         jButton4 = new javax.swing.JButton();
         jButton1 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
+=======
+        jButton1 = new javax.swing.JButton();
+>>>>>>> 0cdaeb01e26727fdbed0df66e88c9f797f37a8f5
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenu3 = new javax.swing.JMenu();
@@ -55,31 +62,51 @@ public class Principal extends javax.swing.JFrame {
         setTitle("SISTEMA CONTABLE V1.0");
         setBackground(new java.awt.Color(51, 204, 255));
 
+<<<<<<< HEAD
         Escritorio.setBackground(new java.awt.Color(0, 102, 102));
+=======
+        Escritorio.setBackground(new java.awt.Color(0, 153, 153));
+>>>>>>> 0cdaeb01e26727fdbed0df66e88c9f797f37a8f5
 
         javax.swing.GroupLayout EscritorioLayout = new javax.swing.GroupLayout(Escritorio);
         Escritorio.setLayout(EscritorioLayout);
         EscritorioLayout.setHorizontalGroup(
             EscritorioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+<<<<<<< HEAD
             .addGap(0, 820, Short.MAX_VALUE)
         );
         EscritorioLayout.setVerticalGroup(
             EscritorioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 308, Short.MAX_VALUE)
+=======
+            .addGap(0, 822, Short.MAX_VALUE)
+        );
+        EscritorioLayout.setVerticalGroup(
+            EscritorioLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 491, Short.MAX_VALUE)
+>>>>>>> 0cdaeb01e26727fdbed0df66e88c9f797f37a8f5
         );
 
         getContentPane().add(Escritorio, java.awt.BorderLayout.CENTER);
 
+<<<<<<< HEAD
         jToolBar1.setBackground(new java.awt.Color(204, 204, 204));
         jToolBar1.setFloatable(false);
         jToolBar1.setRollover(true);
 
         jButton2.setBackground(new java.awt.Color(204, 204, 204));
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/Shutdown-48.png"))); // NOI18N
+=======
+        jToolBar1.setFloatable(false);
+        jToolBar1.setRollover(true);
+
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/exit.png"))); // NOI18N
+>>>>>>> 0cdaeb01e26727fdbed0df66e88c9f797f37a8f5
         jButton2.setText("Salir");
         jButton2.setFocusable(false);
         jButton2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton2.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+<<<<<<< HEAD
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -97,6 +124,11 @@ public class Principal extends javax.swing.JFrame {
 
         jButton1.setBackground(new java.awt.Color(204, 204, 204));
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/Conference-48.png"))); // NOI18N
+=======
+        jToolBar1.add(jButton2);
+
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/20343_15262_32.png"))); // NOI18N
+>>>>>>> 0cdaeb01e26727fdbed0df66e88c9f797f37a8f5
         jButton1.setText("Usuarios");
         jButton1.setFocusable(false);
         jButton1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -108,6 +140,7 @@ public class Principal extends javax.swing.JFrame {
         });
         jToolBar1.add(jButton1);
 
+<<<<<<< HEAD
         jButton3.setBackground(new java.awt.Color(204, 204, 204));
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/Coins-48.png"))); // NOI18N
         jButton3.setText("Cuentas\n");
@@ -120,6 +153,10 @@ public class Principal extends javax.swing.JFrame {
 
         jMenuBar1.setBackground(new java.awt.Color(204, 204, 204));
 
+=======
+        getContentPane().add(jToolBar1, java.awt.BorderLayout.PAGE_START);
+
+>>>>>>> 0cdaeb01e26727fdbed0df66e88c9f797f37a8f5
         jMenu1.setText("Sistema");
 
         jMenu3.setText("Administracion");
@@ -168,7 +205,11 @@ public class Principal extends javax.swing.JFrame {
     }//GEN-LAST:event_jMenuItemCerrarSesionActionPerformed
 
     private void jMenuItemSalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemSalirActionPerformed
+<<<<<<< HEAD
         apagarApp();
+=======
+        System.exit(0);
+>>>>>>> 0cdaeb01e26727fdbed0df66e88c9f797f37a8f5
     }//GEN-LAST:event_jMenuItemSalirActionPerformed
 
     private void jMenuItemUsuariosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemUsuariosActionPerformed
@@ -179,10 +220,13 @@ public class Principal extends javax.swing.JFrame {
         mostrarUsuarios();
     }//GEN-LAST:event_jButton1ActionPerformed
 
+<<<<<<< HEAD
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         apagarApp();
     }//GEN-LAST:event_jButton2ActionPerformed
 
+=======
+>>>>>>> 0cdaeb01e26727fdbed0df66e88c9f797f37a8f5
     /**
      * @param args the command line arguments
      */
@@ -222,8 +266,11 @@ public class Principal extends javax.swing.JFrame {
     private javax.swing.JDesktopPane Escritorio;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
+<<<<<<< HEAD
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
+=======
+>>>>>>> 0cdaeb01e26727fdbed0df66e88c9f797f37a8f5
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu3;
     private javax.swing.JMenuBar jMenuBar1;
